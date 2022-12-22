@@ -10,13 +10,13 @@ formNumber.addEventListener("submit", function(e) {
   let inputNumberA = Number(inputA.value)
   let inputNumberB = Number(inputB.value)
 
-  if ( inputNumberA > inputNumberB ) {
-    messageAlert.innerHTML = "O primeiro número precisa ser menor que o segundo!"
-    messageAlert.style.backgroundColor = "#d65e56"
-    messageAlert.style.display = "block"
-  } else {
+  if ( inputNumberA < inputNumberB ) {
     messageAlert.innerHTML = "O primeiro número é menor que o segundo! 😉"
     messageAlert.style.backgroundColor = "#98c379"
+    messageAlert.style.display = "block"
+  } else {
+    messageAlert.innerHTML = "O primeiro número precisa ser menor que o segundo!"
+    messageAlert.style.backgroundColor = "#d65e56"
     messageAlert.style.display = "block"
   }
 
