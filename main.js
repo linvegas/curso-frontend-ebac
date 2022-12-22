@@ -10,7 +10,7 @@ formNumber.addEventListener("submit", function(e) {
   let inputNumberA = Number(inputA.value)
   let inputNumberB = Number(inputB.value)
 
-  if ( inputNumberA < inputNumberB ) {
+  if ( inputNumberA > inputNumberB ) {
     messageAlert.innerHTML = "O primeiro número precisa ser menor que o segundo!"
     messageAlert.style.backgroundColor = "#d65e56"
     messageAlert.style.display = "block"
