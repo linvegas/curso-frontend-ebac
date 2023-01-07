@@ -1,9 +1,5 @@
 $(document).ready(function() {
 
-  $('li').click(function() {
-    $(this).toggleClass('riscado')
-  })
-
   $('form').on('submit', function(e) {
 
     e.preventDefault()
@@ -15,4 +11,9 @@ $(document).ready(function() {
 
     $('#input-tarefa').val("")
   })
+
+  $(document).on("click", "li", function() {
+    $(this).toggleClass('riscado')
+  })
+
 })
