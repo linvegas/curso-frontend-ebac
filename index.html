@@ -108,7 +108,6 @@
         </ul>
       </div>
     </section>
-
     <section>
       <div class="container">
         <h2>Promoções</h2>
@@ -166,8 +165,7 @@
         </ul>
       </div>
     </section>
-
-    <section>
+    <section id="contato">
       <div class="container">
         <h2>Entre em contato</h2>
         <form>
@@ -185,7 +183,7 @@
           </div>
           <div class="form-campo">
             <label for="veiculo-interesse">Veículo de interesse:</label>
-            <input type="text" name="veiculo-interesse" id="veiculo-interesse">
+            <input type="text" name="veiculoInteresse" id="veiculo-interesse">
           </div>
           <div class="form-campo">
             <label for="mensagem">Mensagem:</label>
@@ -221,18 +219,10 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        $("#carousel-imagens").slick({
-          autoplay: true,
-          speed: 2000,
-        })
-
-        $(".menu-hamburger").click(function() {
-          $("nav").slideToggle()
-        })
-      })
-    </script>
+    <script type="text/javascript" src="./js/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="./js/messages_pt_BR.min.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
   </body>
 </html>
 
