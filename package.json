@@ -1,0 +1,23 @@
+{
+  "name": "curso-frontend-ebac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/style.scss build/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisterConscio/curso-frontend-ebac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisterConscio/curso-frontend-ebac/issues"
+  },
+  "homepage": "https://github.com/MisterConscio/curso-frontend-ebac#readme",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}
