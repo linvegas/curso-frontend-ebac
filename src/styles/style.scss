@@ -1,0 +1,18 @@
+@use 'reset';
+
+body {
+  background-color: #1E2127;
+  color: #ABB2BF;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  h1 {
+    font-size: 4em;
+    border-bottom: 4px solid #98C379;
+  }
+}
