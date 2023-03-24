@@ -44,10 +44,18 @@ function Mitico(nome, tipo) {
 
 const bulbassauro = new Pokemon("Bulbassauro", "folha")
 const mewtwo = new Lendario("Mewtwo", "psíquico")
+const regirock = new Lendario("Regirock", "pedra")
+const reshiran = new Lendario("Reshiran", "dragão")
+const mew = new Mitico("Mew", "psíquico")
 const celebi = new Mitico("Celebi", "psíquico")
+const jirachi = new Mitico("Jirachi", "metal")
 
 mewtwo.mudarStatus(106, 110, 90)
+regirock.mudarStatus(106, 110, 90)
+reshiran.mudarStatus(106, 110, 90)
 celebi.mudarStatus(100, 100, 100)
+mew.mudarStatus(100, 100, 100)
+jirachi.mudarStatus(100, 100, 100)
 
 console.log(`hp: ${bulbassauro.status()[0]}`)
 console.log(`hp: ${mewtwo.status()[0]}`)
